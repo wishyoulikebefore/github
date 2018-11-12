@@ -1,0 +1,9 @@
+1）开始建立连接
+git remote add origin git@github.com:yourName/yourRepo.git
+如果出现了以下情况fatal: remote origin already exists
+输入命令：git remote rm origin，然后重新连接
+
+2）
+git add *py
+git commit -m "first commit"  （列出所有需要上传的文件）
+git push origin master (传输)
